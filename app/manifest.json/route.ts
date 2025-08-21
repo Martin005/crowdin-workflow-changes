@@ -18,7 +18,7 @@ export async function GET() {
     identifier: 'workflow-changes',
     name: 'Workflow Changes',
     baseUrl: process.env.NEXT_PUBLIC_BASE_URL,
-    logo: '/logo.svg',
+    logo: '/logo.png',
     authentication: {
       type: 'crowdin_app',
       clientId: process.env.CROWDIN_CLIENT_ID,

@@ -57,9 +57,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/logo.svg',
-        width: 180,
-        height: 54,
-        alt: 'Crowdin Logo',
+        width: 128,
+        height: 128,
+        alt: 'Logo',
       },
     ],
   },
