@@ -33,7 +33,10 @@ export async function GET() {
         {
           key: 'workflow-changes-project-reports',
           name: 'Workflow Changes',
+          description: 'View and export workflow changes for your project.',
+          logo: '/logo.png',
           url: '/project-reports',
+          environments: ['crowdin-enterprise'],
         },
       ],
     },
