@@ -28,7 +28,7 @@ declare global {
 }
 
 /**
- * React component rendered inside Crowdin's *Project Menu* iframe. Provides
+ * React component rendered inside Crowdin's *Project Reports* iframe. Provides
  * diagnostic buttons to call the Crowdin JS API (`getContext`, `getJwtToken`)
  * and to test a backend endpoint (`/api/user`).
  */

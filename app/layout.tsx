@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: '%s | Crowdin App',
   },
   description:
-    'A sample Crowdin App demonstrating best practices for building localization platform integrations. Learn how to create custom file formats, API integrations, and more.',
+    'A sample Crowdin App demonstrating best practices for building localization platform integrations. Learn how to create API integrations, and more.',
   keywords: [
     'Crowdin',
     'localization',

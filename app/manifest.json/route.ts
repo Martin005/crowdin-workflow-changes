@@ -8,15 +8,15 @@ import { NextResponse } from 'next/server';
  *   – OAuth details (client id)
  *   – event web-hooks (installed / uninstall)
  *   – requested scopes
- *   – app modules (project-menu, custom file format, etc.)
+ *   – app modules (project-reports, etc.)
  *
  * The route is automatically picked up by Next.js because it lives inside the
  * `app/manifest.json` folder and returns a `NextResponse` with `.json()`.
  */
 export async function GET() {
   const manifestData = {
-    identifier: 'getting-started',
-    name: 'Getting Started',
+    identifier: 'workflow-changes',
+    name: 'Workflow Changes',
     baseUrl: process.env.NEXT_PUBLIC_BASE_URL,
     logo: '/logo.svg',
     authentication: {
@@ -29,11 +29,11 @@ export async function GET() {
     },
     scopes: ['project'],
     modules: {
-      'project-menu': [
+      'project-reports': [
         {
-          key: 'menu',
-          name: 'Getting Started',
-          url: '/project-menu',
+          key: 'workflow-changes-project-reports',
+          name: 'Workflow Changes',
+          url: '/project-reports',
         },
       ],
     },

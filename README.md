@@ -11,7 +11,7 @@ This project is an advanced sample application that demonstrates core concepts f
 This repository contains a sample application built with **Next.js** and **TypeScript**. It's designed to demonstrate key features and best practices for building a production-ready Crowdin App, featuring:
 
 - **Dynamic App Manifest**: Generating `manifest.json` based on environment variables.
-- **Project Menu Module**: Rendering a custom tab within a Crowdin project.
+- **Project Reports Module**: Rendering a custom tab within a Crowdin project.
 - **Event Handling**: Securely processing `installed` and `uninstall` lifecycle events.
 - **JWT Middleware**: Verifying signed requests from Crowdin to protect API endpoints.
 - **Database Integration**: Using Prisma to persist organization credentials.
