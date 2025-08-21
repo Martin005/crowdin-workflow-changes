@@ -15,8 +15,6 @@ This repository contains a sample application built with **Next.js** and **TypeS
 - **Event Handling**: Securely processing `installed` and `uninstall` lifecycle events.
 - **JWT Middleware**: Verifying signed requests from Crowdin to protect API endpoints.
 - **Database Integration**: Using Prisma to persist organization credentials.
-- **Custom File Format**: Processing unique file types and generating live previews.
-- **Blob Storage**: Handling large data payloads efficiently with Vercel Blob.
 
 ## Running Locally
 
@@ -28,7 +26,9 @@ Make sure you have [Node.js (v18 or later)](https://nodejs.org/) installed.
 git clone https://github.com/crowdin/apps-quick-start-nextjs.git
 cd apps-quick-start-nextjs
 ```
-*To follow the tutorial from its starting point, check out the `v1.0-basic` tag:*
+
+_To follow the tutorial from its starting point, check out the `v1.0-basic` tag:_
+
 ```sh
 git checkout v1.0-basic
 ```
@@ -36,6 +36,7 @@ git checkout v1.0-basic
 2. **Install dependencies:**
 
 Choose your preferred package manager:
+
 ```sh
 # Using npm
 npm install
@@ -47,9 +48,11 @@ pnpm install
 3. **Configure your environment:**
 
 Copy the example environment file. This file is ignored by Git, so it's safe for your credentials.
+
 ```sh
 cp .env.example .env.local
 ```
+
 Next, open `.env.local` in your editor and add the required values from your Crowdin OAuth application.
 
 4. **Run the development server:**
@@ -100,7 +103,6 @@ After installation, your app will be available in the project locations defined 
 - **ORM**: [Prisma](https://www.prisma.io/)
 - **Database**: PostgreSQL
 - **Deployment**: [Vercel](https://vercel.com/)
-- **Storage**: [Vercel Blob](https://vercel.com/storage/blob)
 
 ## Resources
 
